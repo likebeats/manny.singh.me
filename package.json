@@ -1,5 +1,8 @@
 {
   "name": "mannysingh.me",
+  "engines": {
+    "npm": "4.4.x"
+  },
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
