@@ -1,0 +1,104 @@
+nav {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  padding-top: 20px;
+  height: 84px;
+  font-size: 10px;
+  font-size: 1.0rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0;
+  margin: auto;
+  list-style: none;
+  margin-top: -60px;
+}
+
+nav ul li {
+  text-transform: uppercase;
+  letter-spacing: .480em;
+  margin-right: 30px;
+}
+
+nav ul li:nth-child(1) {
+  margin-left: 10px;
+}
+
+nav ul li:nth-child(2) {
+  margin-right: 0px;
+}
+
+nav ul li:nth-child(3) {
+  padding-left: 0;
+  margin-left: 140px;
+}
+
+nav ul li:last-child {
+  margin-right: 0px;
+}
+
+nav ul li a {
+  display: inline-block;
+  line-height: 50px;
+  height: 50px;
+  color: #4C4C4C;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+}
+
+nav .nav_icon {
+  display: block;
+  margin: auto;
+  width: 88px;
+  height: 80px;
+}
+
+nav ul li a .line {
+  height: 1px;
+  display: block;
+  width: 0;
+  margin-top: -12px;
+  margin-left: 50%;
+  background: #313131;
+}
+
+nav ul li .hover:hover .line, nav ul li .active .line {
+  width: 97%;
+  margin-left: -1px;
+}
+
+main {
+  margin-top: 150px;
+}
+
+.container {
+  max-width: 600px;
+}
+
+footer {
+  margin: auto;
+  text-align: center;
+  margin: 30px 0 30px 0;
+}

@@ -1,9 +1,12 @@
-<header>
-  <a routerLink="/" routerLinkActive="active">ABOUT ME</a>
-  <a routerLink="/projects" routerLinkActive="active">WORK</a>
-  <a routerLink="/" routerLinkActive="active">RESUME</a>
-  <a routerLink="/contact" routerLinkActive="active">CONTACT</a>
-</header>
+<nav>
+  <a routerLink="/" class="nav_icon"> <img src="/assets/images/about_me_icon.png" /></a>
+  <ul>
+    <li> <a routerLink="/about-me" routerLinkActive="active" class="hover">ABOUT ME <span class="line css3Animate"></span></a> </li>
+    <li> <a routerLink="/projects" routerLinkActive="active" class="hover">WORK <span class="line css3Animate"></span></a> </li>
+    <li> <a href="/assets/files/resume.pdf" target="_blank" class="hover">RESUME <span class="line css3Animate"></span></a> </li>
+    <li> <a routerLink="/contact" routerLinkActive="active" class="hover">CONTACT <span class="line css3Animate"></span></a> </li>
+  </ul>
+</nav>
 
 <main>
   <div class="container">
@@ -12,5 +15,5 @@
 </main>
 
 <footer>
-  Footer here
+  -
 </footer>
