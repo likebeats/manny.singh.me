@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600');
+
+body {
+  font-family: 'Josefin Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  color: #4C4C4C;
+  background-color: #F7F7F7;
+  background-image: url("/assets/images/gray-texture.png");
+}
+
+.container {
+  width: 583px;
+}

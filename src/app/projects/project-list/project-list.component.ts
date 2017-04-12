@@ -15,7 +15,9 @@ export class ProjectListComponent implements OnInit {
   projects: Project[];
   selectedProject: Project;
 
-  constructor(private projectService: ProjectService) {}
+  constructor(private projectService: ProjectService,
+              private route: ActivatedRoute,
+              private router: Router) {}
 
   ngOnInit() {
     this.projectService
@@ -27,6 +29,8 @@ export class ProjectListComponent implements OnInit {
 
   selectProject(project: Project) {
     this.selectedProject = project;
+
+    this.router.navigate([crisis.id], { relativeTo: this.route });
   }
 
 }
