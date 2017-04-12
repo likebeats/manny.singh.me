@@ -1,0 +1,30 @@
+.projects-list {
+
+}
+
+.projects-list .projects-list-item {
+  width: 200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.projects-list .projects-list-item-col {
+  padding-left: 3px; 
+  padding-right: 3px;
+}
+
+.projects-list .projects-list-item a {
+  display: block;
+}
+
+.projects-list .projects-list-item .caption {
+  margin-top: 5px;
+}
+
+.projects-list .projects-list-item .caption div:nth-child(1) {
+  font-size: 18px;
+}
+
+.projects-list .projects-list-item .caption div:nth-child(2) {
+  font-size: 14px;
+}

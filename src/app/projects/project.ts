@@ -5,4 +5,6 @@ export class Project {
   description: string;
   thumbnail: string;
   screenshots: string[];
+  links: string[];
+  orderIndex: number;
 }

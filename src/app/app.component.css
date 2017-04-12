@@ -68,7 +68,7 @@ nav ul li a:hover {
   text-decoration: none;
 }
 
-nav .nav_icon {
+nav .navIcon {
   display: block;
   margin: auto;
   width: 88px;
@@ -94,7 +94,7 @@ main {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 614px;
 }
 
 footer {
