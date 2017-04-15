@@ -1,0 +1,17 @@
+.contact-me {
+  text-align: center;
+  font-weight: 600;
+}
+
+.contact-me h1 {
+  font-weight: 600;
+}
+
+.contact-me .contact-me-icons {
+  margin-top: 40px;
+}
+
+.contact-me .contact-me-icons a {
+  display:inline-block;
+  margin: 0 5px 0 5px;
+}
