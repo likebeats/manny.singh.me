@@ -1,0 +1,15 @@
+.project-details {
+
+}
+
+.project-details .project-screenshots {
+  text-align: center;
+}
+
+.project-details .project-screenshots .project-screenshots-item {
+  margin-bottom: 20px;
+}
+
+.project-details .project-screenshots .project-screenshots-item img {
+  max-width: 260px;
+}
