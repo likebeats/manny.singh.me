@@ -2,6 +2,10 @@
 
 }
 
+.project-details h2 {
+  margin: 0;
+}
+
 .project-details .project-screenshots {
   text-align: center;
 }
