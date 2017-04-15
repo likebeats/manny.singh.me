@@ -82,7 +82,7 @@ nav ul li a .line {
   background: #313131;
 }
 
-nav ul li .hover:hover .line, nav ul li .active .line {
+nav ul li .active .line {
   width: 97%;
   margin-left: -1px;
 }
@@ -101,8 +101,16 @@ footer {
   height: 130px;
 }
 
+/* Remove hover state for touch screens */
 
-/* Media query for under 600px */
+@media (pointer: fine) {
+  nav ul li .hover:hover .line {
+    width: 97%;
+    margin-left: -1px;
+  }
+}
+
+/* Media query for under 600px - 375px */
 
 @media (max-width: 600px) and (min-width: 375px) {
 
@@ -131,6 +139,8 @@ footer {
   }
 
 }
+
+/* Media query for less than 375px */
 
 @media (max-width: 374px) {
 
