@@ -2,7 +2,7 @@ import { Component, OnInit, HostBinding } from '@angular/core';
 import { Project } from '../project';
 import { ProjectService } from '../project.service';
 import { ProjectDetailsComponent } from '../project-details/project-details.component';
-import { Router, ActivatedRoute, Params } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 import { slideInDownAnimation } from '../../animations';
 
 @Component({
@@ -27,11 +27,10 @@ export class ProjectListComponent implements OnInit {
               private router: Router) {}
 
   ngOnInit() {
-    this.projectService
-        .getProjects()
-        .then((projects: Project[]) => {
-          this.projects = projects;
-        });
+    this.projectService.getProjects()
+                       .then((projects: Project[]) => {
+                         this.projects = projects;
+                       });
   }
 
   selectProject(project: Project) {
