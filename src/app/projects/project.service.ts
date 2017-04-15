@@ -7,6 +7,7 @@ import 'rxjs/add/operator/toPromise';
 export class ProjectService {
 
   private projectsURL = '/api/projects';
+  public selectedProject: Project;
 
   constructor (private http: Http) {}
 
@@ -15,6 +16,13 @@ export class ProjectService {
     return this.http.get(this.projectsURL)
                     .toPromise()
                     .then(response => response.json() as Project[])
+                    .catch(this.handleError);
+  }
+
+  getProjectById(projectId: string) {
+    return this.http.get(`${this.projectsURL}/${projectId}`)
+                    .toPromise()
+                    .then(response => response.json() as Project)
                     .catch(this.handleError);
   }
 
