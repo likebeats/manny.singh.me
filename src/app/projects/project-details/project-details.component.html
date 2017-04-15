@@ -13,7 +13,9 @@
   <div class="row project-screenshots">
     <div class="col-sm-6 col-xs-12 project-screenshots-item"
         *ngFor="let screenshot of project.screenshots">
-        <img src="/assets/images/projects/{{screenshot}}" alt="{{screenshot}}" />
+        <a href="/assets/images/projects/{{screenshot}}" target="_blank">
+          <img src="/assets/images/projects/{{screenshot}}" alt="{{screenshot}}" />
+        </a>
     </div>
   </div>
 </div>
