@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, HostBinding } from '@angular/core';
+import { Component, OnInit, HostBinding } from '@angular/core';
 import { Project } from '../project';
 import { ProjectService } from '../project.service';
 import { Router, ActivatedRoute } from '@angular/router';
@@ -17,7 +17,6 @@ export class ProjectDetailsComponent implements OnInit {
   @HostBinding('style.display')   display = 'block';
   @HostBinding('style.position')  position = 'relative';
 
-  @Input()
   project: Project;
 
   constructor(private projectService: ProjectService,
