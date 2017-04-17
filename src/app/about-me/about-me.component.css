@@ -6,3 +6,8 @@
   text-align: center;
   margin-bottom: 20px;
 }
+
+.about-me-pic img {
+  height: 142px;
+  width: 142px;
+}

@@ -73,6 +73,10 @@ nav .navIcon {
   height: 80px;
 }
 
+nav .navIcon img {
+  width: 100%;
+}
+
 nav ul li a .line {
   height: 1px;
   display: block;

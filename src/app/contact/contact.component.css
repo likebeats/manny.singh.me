@@ -11,6 +11,11 @@
   margin-top: 40px;
 }
 
+.contact-me .contact-me-icons img {
+  width: 48px;
+  height: 48px;
+}
+
 .contact-me .contact-me-icons a {
   display:inline-block;
   margin: 0 5px 0 5px;
