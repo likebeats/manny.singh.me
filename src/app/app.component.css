@@ -114,7 +114,7 @@ footer {
   }
 }
 
-/* Media query for under 600px - 375px */
+/* Media query for between 600px - 375px */
 
 @media (max-width: 600px) and (min-width: 375px) {
 
